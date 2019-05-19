@@ -1,0 +1,16 @@
+{
+  "name": "node-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "compiler": "tsc --watch",
+    "run": "ts-node ./src/index.ts",
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "ts-node": "^8.1.0",
+    "ts-node-dev": "^1.0.0-pre.39",
+    "typescript": "^3.4.5"
+  }
+}
