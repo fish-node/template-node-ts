@@ -21,4 +21,8 @@
 
   https://github.com/kulshekhar/ts-jest
 
+- supertest
+
+  一个mock http请求的测试框架
+
 

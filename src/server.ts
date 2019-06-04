@@ -2,7 +2,7 @@ import {IncomingMessage, OutgoingMessage} from "http";
 
 const http = require("http");
 
-http.createServer((req: IncomingMessage, res: OutgoingMessage) => {
+export const server = http.createServer((req: IncomingMessage, res: OutgoingMessage) => {
     res.write("hello world");
-    res.end()
-}).listen(8088);
+    res.end();
+});
