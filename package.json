@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "compiler": "tsc --watch",
-    "run": "ts-node src/index.ts",
+    "serve": "ts-node src/index.ts",
     "dev": "ts-node-dev src/index.ts",
     "test": "jest"
   },

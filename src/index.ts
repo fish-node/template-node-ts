@@ -1,3 +1,7 @@
 import {server} from "./server";
 
-server.listen(8088);
+const port = 8080;
+
+server.listen(port, () => {
+    console.log("server is listening http:localhost:" + port);
+});
