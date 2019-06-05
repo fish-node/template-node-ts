@@ -2,7 +2,7 @@
     "name": "template-node-ts",
     "version": "1.0.0",
     "scripts": {
-        "compiler": "tsc --watch",
+        "c": "tsc",
         "serve": "ts-node src/index.ts",
         "dev": "ts-node-dev src/index.ts",
         "test": "jest"
