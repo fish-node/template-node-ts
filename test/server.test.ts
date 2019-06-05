@@ -1,6 +1,6 @@
 import request from "supertest";
 
-import {server} from "../src/server";
+import server from "../src/server";
 
 describe("测试http服务器", () => {
     it("Get /", async () => {
