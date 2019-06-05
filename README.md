@@ -1,4 +1,4 @@
-# node-ts
+# template-node-ts
 node-ts项目的基本模板
 
 -  npx ts-node ./src/index.ts
