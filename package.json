@@ -5,7 +5,8 @@
         "c": "tsc",
         "serve": "ts-node src/index.ts",
         "dev": "ts-node-dev src/index.ts",
-        "test": "jest"
+        "test": "jest",
+        "cover": "jest --coverage"
     },
     "dependencies": {
     },
